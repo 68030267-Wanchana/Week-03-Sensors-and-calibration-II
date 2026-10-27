@@ -26,24 +26,8 @@
 
 ## 2. แผนผังเนื้อหาการเรียนรู้ประจำสัปดาห์ (Lesson Roadmap)
 
-```mermaid
-flowchart LR
-    A["<b>สัปดาห์ที่ 03</b><br> Physical-to-Digital & LDR Calibration"] --> B["1. โลกกายภาพ & 6 โดเมนพลังงาน<br/>(Mechanical, Thermal, Radiant, Chemical, Magnetic, Electrical)"]
-    A --> C["2. โลกดิจิทัล & การแทนค่าข้อมูล<br/>(Discrete, Bit Precision, Error Detection & Correction)"]
-    A --> D["3. กระบวนการแปลงสัญญาณ 4 ขั้นตอน<br/>(Physical → Electrical → Conditioning → Digital)"]
-    A --> E["4. Sensor vs Transducer<br/>(Input Sensing vs Energy Transformation & Output Actuation)"]
-    A --> F["5. ความสมบูรณ์ของสัญญาณ (Signal Integrity)<br/>(Noise, Ground Loop, Voltage Drop, Shielding)"]
-
-    B --> G["<b>ใบงานปฏิบัติการ LDR Calibration</b><br> วงจร Voltage Divider (LDR + R10k)"]
-    C --> G
-    D --> G
-    E --> G
-    F --> G
-
-    G --> H["<b>การเก็บข้อมูล Ground Truth</b><br> วัด Lux จากมือถือ เทียบกับ ADC Raw (ESP32)"]
-    H --> I["<b>การสร้างโมเดล Calibration</b><br> วิเคราะห์ Scatter Chart & Trendline (Linear vs Polynomial)"]
-    I --> K["<b>การประเมินความแม่นยำ</b><br> Error Analysis & Self-Assessment Rubric (100 คะแนน)"]
-```
+<p align="center"><img src="Images/Fig_README_2026-10-27T08-07-26_academic.svg" alt="README"  ></p>
+<p align="center"> แผนผังเนื้อหาการเรียนรู้ประจำสัปดาห์ (Lesson Roadmap)</p>
 
 ---
 
